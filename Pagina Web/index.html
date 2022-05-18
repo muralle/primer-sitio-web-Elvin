@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Primer Sitio Web Elvin Muralles</title>
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Slider-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <!--Estilos-->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div id="wrapper">
+
+    <!--Banner-->
+    <div id="banner-wrapper">
+      <header>
+        <div class="header-inner">
+          <a href="index.html" id="logo">
+            <img src="img/logo.jpg" alt="logo de mi pag. web">
+          </a>
+          <nav>
+            <a href="#" id="menu-icon">
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul>
+              <li>
+                <a href="index.html" class="current">Inicio</a>
+              </li>
+              <li>
+                <a href="#skills">Pasatiempos</a>
+              </li>
+              <li>
+                <a href="#learnings">Aprendizajes</a>
+              </li>
+              <li>
+                <a href="#portfolio">Logo</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <Section class="slide-wrap">
+        <ul class="Slider1">
+          <li><img src="img/Slider1.jpg" alt="moto r1's"></li>
+          <li><img src="img/Slider2.jpg" alt="moto r1"></li>
+          <li><img src="img/Slider3.jpg" alt="moto r6"></li>
+        </ul>
+      </section>
+
+    </div>
+  </div>
+
+  <section class="one-third" id="skills">
+    <div class="icon-wrap">
+      <i class="fa fa-desktop"></i>
+    </div>
+    <h3>Multimedia</h3>
+    <p>Ver series o peliculas en mis tiempos libres, siempre que no sean de drama.</p>
+  </section>
+
+  <section class="one-third" id="skills">
+    <div class="icon-wrap">
+      <i class="fa fa-pencil-square-o"></i>
+    </div>
+    <h3>Diseño Gráfico</h3>
+    <p>Dibujar, puedo dibujar aunque actualmente ya no lo hago mucho.</p>
+  </section>
+
+  <section class="one-third" id="skills">
+    <div class="icon-wrap">
+      <i class="fa fa-file-code-o"></i>
+    </div>
+    <h3>Juegos</h3>
+    <p>Juegos juegos moviles de vez en cuando, cuando tengo tiempo o ganas.</p>
+  </section>
+  <div class="clearfix-padding"></div>
+
+  <!--portfolio-->
+  <section class="left-col" id="portfolio">
+    <h3>Logo</h3>
+    <p>En base al logo, fue escogido aleatoriamente ya que no contaba con mi logotipo y tenia esta foto mas a la 
+      mano decidí colocarla como si fuera una mi marca de agua para este trabajo ya que es mi primera vez haciendo
+      una pagina web que se viera de esta manera :) .</p>
+  </section>
+  <section class="sidebar">
+    <img src="img/logo1.jpg" alt="logo">
+  </section>
+  <div class="clearfix-padding"></div>
+  <!--Services-->
+  <div class="one-third-padding" id="learnings">
+    <h3>Nuevos Aprendizajes</h3>
+    <img src="img/pics/imagen3.jpg">
+    <p>Recibi una introducción a lo que es photoshop.</p>
+  </div>
+
+  <div class="one-third-padding" id="learnings">
+    <h3>Aprendizaje 2</h3>
+    <img src="img/pics/imagen2.jpg">
+    <p>Tambien lo que es el manejo de armamento militar :).</p>
+  </div>
+
+  <div class="one-third-padding" id="learnings">
+    <h3>Aprendizaje 3</h3>
+    <img src="img/pics/imagen4.jpg">
+    <p>Por ultimo nuevos conocimientos de computación y otros temas acorde a mi carrera.</p>
+  </div>
+
+  <footer>
+    <div class="banner-wrapper">
+      <div class="icon-text">
+        <div class="icon-text-icon">
+          <ul class="footer-nav">
+            <li>
+              <a href="index.html">Inicio</a>
+            </li>
+            <li>
+              <a href="#skills">Pasatiempos</a>
+            </li>
+            <li>
+              <a href="#learnings">Aprendizajes</a>
+            </li>
+            <li>
+              <a href="#portfolio">Logo</a>
+            </li>
+          </ul>
+
+          <div class="icon-text-text">
+            <ul class="social">
+              <li>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvqsFTHFDlKPVprvfLSbSgSDqgfxNjgqkNQNKHBVhQMNNHbzxfvjGKMTZqtTxXZMXbGwgq" target="_blank">
+                  <i class="fa fa-envelope-o"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/profile.php?id=100005836508254" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/50247980845" target="_blank">
+                  <i class="fa fa-whatsapp"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+  <footer class="footer-second">
+    <p>
+      &copy;Elvin Muralles</p>
+  </footer>
+  <!--Scrips-->
+  <script>
+    $(document).ready(function () {
+      $('.Slider1').bxSlider({
+        mode: 'fade'
+      })
+      $('.Slider2').bxSlider({
+        mode: 'fade'
+      })
+      $('.Slider3').bxSlider({
+        mode: 'fade'
+      })
+    })
+
+  </script>
+
+
+</body>
+
+</html>
